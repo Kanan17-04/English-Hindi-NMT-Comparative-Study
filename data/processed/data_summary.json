@@ -1,0 +1,44 @@
+{
+  "dataset_source": "IIT Bombay English-Hindi Parallel Corpus (cfilt/iitb-english-hindi)",
+  "official_url": "https://www.cfilt.iitb.ac.in/iitb_parallel/",
+  "huggingface_url": "https://huggingface.co/datasets/cfilt/iitb-english-hindi",
+  "raw_counts": {
+    "train_raw": 1659083,
+    "validation_raw": 520,
+    "test_raw": 2507,
+    "total_raw": 1662110
+  },
+  "final_subsets": {
+    "train": 5319,
+    "validation": 497,
+    "test": 500
+  },
+  "word_length_stats": {
+    "en": {
+      "mean": 6.42,
+      "std": 4.16,
+      "median": 5.0,
+      "min": 3,
+      "max": 35
+    },
+    "hi": {
+      "mean": 6.57,
+      "std": 4.32,
+      "median": 5.0,
+      "min": 3,
+      "max": 35
+    }
+  },
+  "char_length_stats": {
+    "en": {
+      "mean": 34.63,
+      "std": 22.66,
+      "median": 29.0
+    },
+    "hi": {
+      "mean": 32.74,
+      "std": 21.75,
+      "median": 27.0
+    }
+  }
+}

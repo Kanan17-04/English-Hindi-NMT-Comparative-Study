@@ -1,0 +1,25 @@
+{
+  "model_name": "mT5-small (google/mt5-small)",
+  "architecture": "Encoder-Decoder",
+  "parameters": 300176768,
+  "epochs": 2,
+  "batch_size": 4,
+  "gradient_accumulation_steps": 4,
+  "train_samples": 1000,
+  "best_val_loss": 6.4624,
+  "fine_tune_time_sec": 1382.9,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 17.5464,
+      "val_loss": 6.8219,
+      "epoch_time_sec": 759.73
+    },
+    {
+      "epoch": 2,
+      "train_loss": 7.9444,
+      "val_loss": 6.4624,
+      "epoch_time_sec": 617.95
+    }
+  ]
+}

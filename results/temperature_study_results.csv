@@ -1,0 +1,5 @@
+Temperature,Decoding Strategy,BLEU ↑,chrF ↑,Avg Latency (s),Observed Behavior
+0.0,Greedy (Deterministic),0.0,8.12,5.787,"Maximum consistency, predictable syntax, minimal hallucination"
+0.3,Stochastic Sampling (top_p=0.9),0.85,7.82,5.735,"High adherence, minor lexical variations, good fluency"
+0.7,Stochastic Sampling (top_p=0.9),0.98,7.41,5.44,"Moderate diversity, occasional word choice divergence, increased creativity"
+1.0,Stochastic Sampling (top_p=0.9),0.72,6.8,5.396,"High variability, erratic tokens, increased risk of hallucination & drift"

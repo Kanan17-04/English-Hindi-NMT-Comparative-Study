@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Model Checkpoint Weights (>100MB exceeds GitHub push limit)
+models/mt5/checkpoint/*.safetensors
+models/mt5/checkpoint/*.bin
+*.safetensors
+*.bin
+
+# Optional: keep or ignore PyTorch .pt models (best_model.pt is ~32MB, well under 100MB)
+# models/transformer_scratch/*.pt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

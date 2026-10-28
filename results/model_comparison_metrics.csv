@@ -1,0 +1,5 @@
+Model,Architecture,Parameters,BLEU ↑,chrF ↑,Train/Fine-tune Time,Avg Inference Time (s/sent),Total Test Inference Time,Adaptation Method
+Basic Transformer,Encoder-Decoder,5.51M,0.0,0.04,779.4s (13.0m),0.34,6.80s,Trained from scratch
+mT5-small,Encoder-Decoder,300.18M,0.02,2.75,1382.9s (23.0m),1.829,36.57s,Supervised Fine-Tuning
+LLaMA (TinyLlama-1.1B),Decoder-Only,1.10B,0.27,5.66,N/A (Prompting),23.097,461.94s,Zero-shot Instruction Prompting
+Gemma (Gemma-2B),Decoder-Only,2.51B,6.78,29.67,N/A (Prompting),35.066,701.33s,Zero-shot Instruction Prompting

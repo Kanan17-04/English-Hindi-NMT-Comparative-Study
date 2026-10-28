@@ -1,0 +1,21 @@
+Temperature,English,Reference,Prediction,Latency_Sec
+0.0,Artificial intelligence is growing rapidly.,कृत्रिम बुद्धिमत्ता तेजी से बढ़ रही है।,हिंदी: एक्ट्रेसियल इंडिया,5.0138
+0.0,She did not move a muscle during the rescue - she was frozen solid.,"उसने बचाव के दौरान एक भी हरकत नहीं की, वह पत्थर बनी हुई थी।",हिंदी: उसके उत्तर में उस,5.3246
+0.0,The state level women's sporting competition began on October 29th.,राज्यस्तरीय महिला खेल प्रतियोगिता का 29 अक्टूबर को समापन हो गया।,हिंदी: राज्य में विश्व स्कूल स,5.7559
+0.0,I will attend the official conference tomorrow morning.,मैं कल सुबह आधिकारिक सम्मेलन में भाग लूँगा।,हिंदी: उसके अलावा उम्मीदवा,6.5222
+0.0,The doctor advised the patient to take the medicine regularly.,डॉक्टर ने मरीज को नियमित रूप से दवा लेने की सलाह दी।,हिंदी: उसे स्टेटस के स्टेटस,6.317
+0.3,Artificial intelligence is growing rapidly.,कृत्रिम बुद्धिमत्ता तेजी से बढ़ रही है।,हिंदी: एनार्टिफिकल इन्टर,5.629
+0.3,She did not move a muscle during the rescue - she was frozen solid.,"उसने बचाव के दौरान एक भी हरकत नहीं की, वह पत्थर बनी हुई थी।",हिंदी: उनके उल्लंघन के स,6.439
+0.3,The state level women's sporting competition began on October 29th.,राज्यस्तरीय महिला खेल प्रतियोगिता का 29 अक्टूबर को समापन हो गया।,हिंदी: सरकारी उत्तराखंड महास,6.0958
+0.3,I will attend the official conference tomorrow morning.,मैं कल सुबह आधिकारिक सम्मेलन में भाग लूँगा।,हिंदी: उसके उत्साहित केंद्,5.2488
+0.3,The doctor advised the patient to take the medicine regularly.,डॉक्टर ने मरीज को नियमित रूप से दवा लेने की सलाह दी।,हिंदी: हाई कोर्ट ने पासवर्ड,5.2647
+0.7,Artificial intelligence is growing rapidly.,कृत्रिम बुद्धिमत्ता तेजी से बढ़ रही है।,हिंदी: एक्ट्रिटीफिनियम ए,5.2312
+0.7,She did not move a muscle during the rescue - she was frozen solid.,"उसने बचाव के दौरान एक भी हरकत नहीं की, वह पत्थर बनी हुई थी।",हिंदी: उन्होंने फिर एक क,5.7837
+0.7,The state level women's sporting competition began on October 29th.,राज्यस्तरीय महिला खेल प्रतियोगिता का 29 अक्टूबर को समापन हो गया।,कौशल एक्सप्रेस के ऑफिस,5.6785
+0.7,I will attend the official conference tomorrow morning.,मैं कल सुबह आधिकारिक सम्मेलन में भाग लूँगा।,English: तुम सफ़र के अंत में कार्य,5.2479
+0.7,The doctor advised the patient to take the medicine regularly.,डॉक्टर ने मरीज को नियमित रूप से दवा लेने की सलाह दी।,हिंदी: दर्शक से उस दूसरे स्ट,5.2576
+1.0,Artificial intelligence is growing rapidly.,कृत्रिम बुद्धिमत्ता तेजी से बढ़ रही है।,हामी: आउटिफार्टिनिफिकेशन,5.1321
+1.0,She did not move a muscle during the rescue - she was frozen solid.,"उसने बचाव के दौरान एक भी हरकत नहीं की, वह पत्थर बनी हुई थी।",हाथ दर्शन भरा हुआ है - वर्क,5.7413
+1.0,The state level women's sporting competition began on October 29th.,राज्यस्तरीय महिला खेल प्रतियोगिता का 29 अक्टूबर को समापन हो गया।,निम्नलिखित हिन्दी विथ अनुवाद स,5.675
+1.0,I will attend the official conference tomorrow morning.,मैं कल सुबह आधिकारिक सम्मेलन में भाग लूँगा।,हिंदी: राज्य विधायक और मंत्र,5.1883
+1.0,The doctor advised the patient to take the medicine regularly.,डॉक्टर ने मरीज को नियमित रूप से दवा लेने की सलाह दी।,अब्राहम में स्टेशन से लिया था,5.2424
