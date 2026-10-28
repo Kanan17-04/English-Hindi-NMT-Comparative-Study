@@ -1,4 +1,4 @@
-# Foundations of Generative AI (ICT4403) — Assignment 3
+
 # Comparative Study of Neural Machine Translation Architectures: English → Hindi
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
@@ -266,63 +266,3 @@ Based on extensive quantitative metrics, qualitative fluency review, and semanti
 
 ---
 
-## 10. Repository Organization
-
-```text
-PE3 AI3/
-│
-├── data/
-│   ├── raw/                              # Original downloaded corpus archives
-│   └── processed/
-│       ├── train.csv                     # Cleaned training pairs (5,319 rows)
-│       ├── val.csv                       # Cleaned validation pairs (497 rows)
-│       ├── test.csv                      # Cleaned shared test benchmark (500 rows)
-│       └── data_summary.json             # Dataset statistical distribution
-│
-├── models/
-│   ├── transformer_scratch/
-│   │   ├── model.py                      # Pure PyTorch Basic Transformer implementation
-│   │   ├── tokenizer.py                  # Custom English & Hindi Seq2Seq Tokenizers
-│   │   ├── train.py                      # Training loop with teacher forcing & label smoothing
-│   │   ├── best_model.pt                 # Saved PyTorch checkpoint weights
-│   │   ├── en_tokenizer.json             # Saved English vocabulary
-│   │   ├── hi_tokenizer.json             # Saved Hindi vocabulary
-│   │   └── training_meta.json            # Training metrics & parameter counts
-│   │
-│   ├── mt5/
-│   │   ├── finetune_mt5.py               # Supervised fine-tuning script for google/mt5-small
-│   │   ├── checkpoint/                   # Saved best fine-tuned mT5 model & tokenizer
-│   │   └── training_meta.json            # Fine-tuning metadata and loss curves
-│   │
-│   ├── llama/
-│   │   └── translate_llama.py            # TinyLlama-1.1B translation & inference pipeline
-│   │
-│   └── gemma/
-│       └── translate_gemma.py            # Gemma-2B in-context translation pipeline
-│
-├── evaluation/
-│   ├── metrics.py                        # SacreBLEU & chrF metric calculation routines
-│   ├── evaluate_all.py                   # Unified benchmark pipeline evaluating all 4 models
-│   ├── temperature_analysis.py           # Sampling-temperature experiment (T = 0.0 to 1.0)
-│   ├── ethical_ai_analysis.py            # Diagnostic responsible AI evaluation suite
-│   └── generate_visualizations.py        # Publication-ready Matplotlib & Seaborn plots
-│
-├── results/
-│   ├── translation_predictions.csv       # Side-by-side predictions for all 4 models
-│   ├── model_comparison_metrics.csv      # Complete metrics table (BLEU, chrF, Latency, Params)
-│   ├── temperature_study_results.csv     # Temperature curve data
-│   ├── ethical_ai_cases.csv              # Diagnostic ethical and responsible AI case studies
-│   └── plots/
-│       ├── dataset_length_distribution.png
-│       ├── model_bleu_chrf_comparison.png
-│       ├── inference_time_vs_parameters.png
-│       └── temperature_effect_curve.png
-│
-├── notebooks/
-│   └── machine_translation_comparative_study.ipynb # Interactive, fully reproducible Jupyter Notebook
-│
-├── requirements.txt                      # Project dependency specification
-├── submission_details_template.md        # Student submission metadata template for Word/PDF
-├── data_prep.py                          # Data preparation and exploration script
-└── README.md                             # Comprehensive technical report
-```
